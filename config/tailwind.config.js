@@ -10,14 +10,26 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter var", ...defaultTheme.fontFamily.sans],
+        montserrat: ["montserrat", "sans-serif"],
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
+      margin: {
+        sm: "8px",
+        md: "16px",
+        lg: "24px",
+        xl: "48px",
       },
     },
+    colors: {
+      blackFont: "#121f32",
+      pinkFont: "#ef8f7c",
+    },
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/aspect-ratio"),
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/container-queries"),
-  ],
+  plugins: [],
 }

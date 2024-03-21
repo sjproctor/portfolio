@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-
-@layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+@layer base {
+  @font-face {
+    font-family: 'montserrat';
+    src: url('montserrat.ttf');
   }
 }
 
-*/
+:root {
+  margin: 0;
+  font-family: montserrat;
+  font-size: 16pt;
+  width: 100vw;
+  color: #121f32;
+}
