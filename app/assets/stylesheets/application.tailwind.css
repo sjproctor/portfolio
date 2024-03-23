@@ -7,6 +7,10 @@
     font-family: 'montserrat';
     src: url('montserrat.ttf');
   }
+  @font-face {
+    font-family: 'gistesy';
+    src: url('gistesy.ttf');
+  }
 }
 
 :root {
@@ -14,5 +18,4 @@
   font-family: montserrat;
   font-size: 16pt;
   width: 100vw;
-  color: #121f32;
 }
