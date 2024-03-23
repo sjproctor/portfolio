@@ -1,9 +1,9 @@
-<div class="text-center">
-  <div class="flex justify-center bg-gray-100" style="margin-top: 30px">
-    <%= image_tag 'compliments-header.png', alt:'Some Nice Things'%>
-  </div>
+<%= render "shared/header", title: t('compliments') %>
+<div class="m-4 lg:m-7">
+  <h3>
     I am very lucky to have worked with a lot of wonderful humans. Some of them have said very kind things about me.
   </h3>
+  <br />
   <div>
     <%= image_tag('brag-student.png', alt:"email from a student that reads, I hope this email finds you well and in good
     spirits. As my time at LEARN Academy comes to an end, I am grateful for your guidance as a mentor for this

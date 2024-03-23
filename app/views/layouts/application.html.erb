@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Sarah Proctor</title>
@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <%= csrf_meta_tags %> <%= csp_meta_tag %> <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track":
     "reload" %> <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %> <%= javascript_importmap_tags %>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   </head>
   <body class="font-montserrat">
-    <div data-controller="navbar"><%= render partial: '/shared/navigation' %></div>
-    <main><%= yield %></main>
+    <div data-controller="navbar" class="fixed w-screen"><%= render partial: '/shared/navigation' %></div>
+    <main class="pt-16"><%= yield %></main>
     <div><%= render partial: '/shared/footer' %></div>
   </body>
 </html>
