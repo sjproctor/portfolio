@@ -1,5 +1,7 @@
 # Sarah Proctor
 
+### Portfolio Application in Ruby on Rails
+
 ### ✅ Onboarding to the App
 
 This is a Ruby on Rails application with a PostgreSQL database.
@@ -30,6 +32,14 @@ This is a Ruby on Rails application with a PostgreSQL database.
 
 - [Rails Tailwind](https://tailwindcss.com/docs/guides/ruby-on-rails)
 - [@prettier/plugin-ruby](https://classic.yarnpkg.com/en/package/@prettier/plugin-ruby)
+- [Font Awesome Icons](https://fontawesome.com/search?o=r&m=free)
+- [Dev Icons](https://devicon.dev/)
+
+### 🗄️ Useful Resources
+
+A few of the many resources that helped me on my way.
+
+- [Navigation](https://www.youtube.com/playlist?list=PLdTytUiloS15uiUQ31o8a_rlhO1cNyohZ)
 
 ### 🚀 Deployment
 
