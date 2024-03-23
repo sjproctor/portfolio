@@ -30,4 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  compliments: 'Compliments'
+  contact: "Let's Chat"
+  resume: 'My Resume'
+  work: "Things I've Done"
